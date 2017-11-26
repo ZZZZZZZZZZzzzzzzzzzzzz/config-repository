@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8880/eureka/
+      defaultZone: http://localhost:8761/eureka/
 spring:
   rabbitmq:
     host: localhost
@@ -21,4 +21,4 @@ management:
       false
 server:
   port:
-    8881
+    8762
