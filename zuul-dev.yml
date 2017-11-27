@@ -1,7 +1,7 @@
 zuul:
   routes:
     api-a:
-      path: /api-a/**
+      path: /api-a/****
       serviceId: client-ribbon
     api-b:
       path: /api-b/**
